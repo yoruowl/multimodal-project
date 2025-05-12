@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function Theory() {
   return (
     <main className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100">
@@ -13,32 +15,23 @@ export default function Theory() {
           </div>
 
           <div className="grid gap-12">
-            <div className="bg-white rounded-lg shadow-lg p-8 transform hover:scale-[1.02] transition-transform duration-200">
+            <Link href="/theory/decentralization" className="bg-white rounded-lg shadow-lg p-8 transform hover:scale-[1.02] transition-transform duration-200 block">
               <h2 className="text-2xl font-bold text-gray-900 mb-4">
-                Rhetorical Theory in the Digital Age
+                Decentralization
               </h2>
               <p className="text-gray-600 leading-relaxed">
-                The digital revolution has fundamentally transformed how we understand and practice rhetoric. Traditional rhetorical theories, while still relevant, must be reimagined in the context of decentralized networks and digital communication.
+                Decentralization is a way to distribute information and power across networks. Rather that a single entity controlling the information, it is distributed across a network of nodes.
               </p>
-            </div>
+            </Link>
 
-            <div className="bg-white rounded-lg shadow-lg p-8 transform hover:scale-[1.02] transition-transform duration-200">
+            <Link href="/theory/open-source" className="bg-white rounded-lg shadow-lg p-8 transform hover:scale-[1.02] transition-transform duration-200 block">
               <h2 className="text-2xl font-bold text-gray-900 mb-4">
-                Power and Discourse
+                Open Source Technologies
               </h2>
               <p className="text-gray-600 leading-relaxed">
-                Decentralization challenges traditional power structures by distributing authority across networks. This distribution creates new opportunities for rhetorical resistance and alternative forms of discourse that can challenge institutional control.
+                Open source technologies are a way for many different people to collaborate on a project that are not from the same organization or group. This allows for a more decentralized and democratic way of working on projects.
               </p>
-            </div>
-
-            <div className="bg-white rounded-lg shadow-lg p-8 transform hover:scale-[1.02] transition-transform duration-200">
-              <h2 className="text-2xl font-bold text-gray-900 mb-4">
-                Networked Rhetoric
-              </h2>
-              <p className="text-gray-600 leading-relaxed">
-                The concept of networked rhetoric explores how meaning and persuasion operate in distributed systems. This framework helps us understand how decentralized networks can facilitate new forms of collective action and rhetorical resistance.
-              </p>
-            </div>
+            </Link>
           </div>
         </div>
       </section>
