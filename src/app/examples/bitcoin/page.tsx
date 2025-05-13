@@ -20,6 +20,33 @@ export default function Bitcoin() {
                       Content Here
                   </p>
               </div>
+
+              <div className="card">
+                  <h2 className="card-title">
+                      Decentralization
+                  </h2>
+                  <p className="card-content">
+                      Content Here
+                  </p>
+              </div>
+
+              <div className="card">
+                  <h2 className="card-title">
+                      Open Source Foundation
+                  </h2>
+                  <p className="card-content">
+                      Content Here
+                  </p>
+              </div>
+
+              <div className="card">
+                  <h2 className="card-title">
+                      Benefits of Bitcoin
+                  </h2>
+                  <p className="card-content">
+                      Content Here
+                  </p>
+              </div>
           </div>
         </section>
       </main>

@@ -20,6 +20,33 @@ export default function Bluesky() {
                       Content Here
                   </p>
               </div>
+
+              <div className="card">
+                  <h2 className="card-title">
+                      Decentralized Social Media
+                  </h2>
+                  <p className="card-content">
+                      Content Here
+                  </p>
+              </div>
+
+              <div className="card">
+                  <h2 className="card-title">
+                      Open Source
+                  </h2>
+                  <p className="card-content">
+                      Content Here
+                  </p>
+              </div>
+
+              <div className="card">
+                  <h2 className="card-title">
+                      Why Bluesky Matters
+                  </h2>
+                  <p className="card-content">
+                      Content Here
+                  </p>
+              </div>
           </div>
         </section>
       </main>

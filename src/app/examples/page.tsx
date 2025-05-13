@@ -41,9 +41,9 @@ export default function Examples() {
               </p>
             </Link>
 
-            <Link href="/examples/wikipedia" className="card-interactive">
+            <Link href="/examples/email" className="card-interactive">
               <h2 className="card-title">
-                Wikipedia
+                Email
               </h2>
               <p className="card-content">
                 Content Here
@@ -61,7 +61,7 @@ export default function Examples() {
 
             <Link href="/examples/bluesky" className="card-interactive">
               <h2 className="card-title">
-                BlueSky
+                Bluesky
               </h2>
               <p className="card-content">
                 Content Here

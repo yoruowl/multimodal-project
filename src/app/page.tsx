@@ -23,7 +23,7 @@ export default function Home() {
           >
             <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
               <TypewriterEffect 
-                text="Distributed Innovation: Open-Source and Decentralized Technologies" 
+                text="Distributed Innovation: Open-Source and Decentralized Technology" 
                 speed={60}
                 onComplete={() => setTypingComplete(true)}
               />
