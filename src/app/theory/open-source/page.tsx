@@ -15,7 +15,7 @@ export default function OpenSource() {
             </p>
           </div>
 
-          <div className="bg-white rounded-lg shadow-lg p-8 transform hover:scale-[1.02] transition-transform duration-200">
+          <div className="card">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">
               Why Open Source Matters
             </h2>

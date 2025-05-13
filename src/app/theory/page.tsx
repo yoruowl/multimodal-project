@@ -15,7 +15,7 @@ export default function Theory() {
           </div>
 
           <div className="grid gap-12">
-            <Link href="/theory/decentralization" className="bg-white rounded-lg shadow-lg p-8 transform hover:scale-[1.02] transition-transform duration-200 block">
+            <Link href="/theory/decentralization" className="card-interactive">
               <h2 className="text-2xl font-bold text-gray-900 mb-4">
                 Decentralization
               </h2>
@@ -24,7 +24,7 @@ export default function Theory() {
               </p>
             </Link>
 
-            <Link href="/theory/open-source" className="bg-white rounded-lg shadow-lg p-8 transform hover:scale-[1.02] transition-transform duration-200 block">
+            <Link href="/theory/open-source" className="card-interactive">
               <h2 className="text-2xl font-bold text-gray-900 mb-4">
                 Open Source Technologies
               </h2>
