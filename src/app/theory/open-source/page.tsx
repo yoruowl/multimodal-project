@@ -16,12 +16,38 @@ export default function OpenSource() {
           </div>
 
           <div className="card">
-            <h2 className="text-2xl font-bold text-gray-900 mb-4">
-              Why Open Source Matters
+            <h2 className="card-title">
+              What is Open Source?
             </h2>
-            <p className="text-gray-600 leading-relaxed">
-              Open source projects foster transparency, community-driven development,
-              and innovation by allowing anyone to inspect, modify, and distribute software.
+            <p className="card-content">
+                Content Here
+            </p>
+          </div>
+
+          <div className="card">
+            <h2 className="card-title">
+                Why Open Source Matters
+            </h2>
+            <p className="card-content">
+                Content Here
+            </p>
+          </div>
+
+          <div className="card">
+            <h2 className="card-title">
+                How Open Source Works
+            </h2>
+            <p className="card-content">
+                Content Here
+            </p>
+          </div>
+
+          <div className="card">
+            <h2 className="card-title">
+                Challenges of Open Source
+            </h2>
+            <p className="card-content">
+                Content Here
             </p>
           </div>
         </div>
