@@ -23,13 +23,13 @@ export default function Home() {
           >
             <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
               <TypewriterEffect 
-                text="Decentralization as Rhetorical Resistance" 
+                text="Distributed Innovation: Open-Source and Decentralized Technologies" 
                 speed={60}
                 onComplete={() => setTypingComplete(true)}
               />
             </h1>
             <p className={`text-xl md:text-2xl text-gray-700 mb-8 transition-opacity duration-1000 ${typingComplete ? 'opacity-100' : 'opacity-0'}`}>
-              Exploring how distributed networks challenge traditional power structures through digital discourse
+              Empowering a Connected, Open World
             </p>
           </GlassmorphicCard>
           

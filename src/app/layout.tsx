@@ -5,7 +5,7 @@ import Navbar from "@/components/Navbar";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Decentralization as Rhetorical Resistance",
+  title: "Distributed Innovation: The Rise of Open-Source and Decentralized Technologies",
   description: "Exploring how distributed networks challenge traditional power structures through digital discourse",
 };
 
