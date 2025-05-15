@@ -37,7 +37,7 @@ export default function Examples() {
                 Linux
               </h2>
               <p className="card-content">
-                Content Here
+                Open Source Operating System
               </p>
             </Link>
 
@@ -46,7 +46,7 @@ export default function Examples() {
                 Email
               </h2>
               <p className="card-content">
-                Content Here
+                Decentralized Communication Protocol 
               </p>
             </Link>
 
@@ -55,7 +55,7 @@ export default function Examples() {
                 Bitcoin
               </h2>
               <p className="card-content">
-                Content Here
+                Decentralized Digital Currency
               </p>
             </Link>
 
@@ -64,7 +64,7 @@ export default function Examples() {
                 Bluesky
               </h2>
               <p className="card-content">
-                Content Here
+                Decentralized Social Media Platform
               </p>
             </Link>  
           </div>
