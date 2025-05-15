@@ -16,38 +16,46 @@ export default function Decentralization() {
 
             <div className="card">
                 <h2 className="card-title">
-                    What is Decentralization?
+                    What is Decentralization
                 </h2>
-                <p className="card-content">
-                    Content Here
-                </p>
+                <ul className="card-content">
+                    <li>Distributed Authority: control and decision making is distributed across multiple entities rather than one singluar one</li>
+                    <li>Community Driven Governance: Decentralized systems often rely on community input for making decisions</li>
+                    <li>Open Standards: Decentralized systems are built on open standards and protocols, allowing for interoperability and innovation</li>
+                </ul>
             </div>
 
             <div className="card">
                 <h2 className="card-title">
                     Why Decentralization Matters
                 </h2>
-                <p className="card-content">
-                    Content Here
-                </p>
+                <ul className="card-content">
+                    <li>Resistance to Centralized Control: Decentralized systems are designed to be resistant to centralized control</li>
+                        <li>Flexibility and Adaptability: Decentralized systems are more flexible and adaptable to changing conditions</li>
+                        <li>Security: Decentralized systems are often more secure than centralized ones</li>
+                    </ul>
             </div>
 
             <div className="card">
                 <h2 className="card-title">
                     How Decentralization Works
                 </h2>
-                <p className="card-content">
-                    Content Here
-                </p>
+                <ul className="card-content">
+                        <li>Decentralized by Design: Decentralized systems are designed to be decentralized by default</li>
+                        <li>Open Source: Decentralized systems are often open source, allowing for transparency and accountability</li>
+                        <li>Open Standards: Decentralized systems are built on open standards and protocols, allowing for interoperability and innovation</li>
+                    </ul>
             </div>
 
             <div className="card">
                 <h2 className="card-title">
                     Challenges of Decentralization
                 </h2>
-                <p className="card-content">
-                    Content Here
-                </p>
+                <ul className="card-content">
+                        <li>Complexity: Decentralized systems are often more complex than centralized ones</li>
+                        <li>Scalability: Decentralized systems are often less scalable than centralized ones</li>
+                        <li>Security: Decentralized systems are often more vulnerable to attacks than centralized ones</li>
+                    </ul>
             </div>
         </div>
       </section>

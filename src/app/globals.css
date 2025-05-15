@@ -38,5 +38,5 @@ body {
 }
 
 .card-content {
-  @apply text-gray-600 leading-relaxed;
+  @apply text-gray-600 leading-relaxed list-disc list-inside;
 }

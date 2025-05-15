@@ -5,6 +5,11 @@ import { useState } from 'react'
 import FadeInSection from '@/components/FadeInSection'
 import TypewriterEffect from '@/components/TypewriterEffect'
 import GlassmorphicCard from '@/components/GlassmorphicCard'
+import Image from 'next/image'
+import linuxLogo from '@/images/linuxLogo.png'
+import email from '@/images/email.png'
+import bitcoin from '@/images/bitcoin.png'
+import bluesky from '@/images/bluesky.png'
 
 export default function Examples() {
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null)
@@ -33,36 +38,48 @@ export default function Examples() {
 
           <div className="grid gap-8">
             <Link href="/examples/linux" className="card-interactive">
-              <h2 className="card-title">
-                Linux
-              </h2>
+              <div className="flex items-center gap-4">
+                <Image src={linuxLogo} alt="Linux Logo" width={40} height={40} className="rounded-lg" />
+                <h2 className="card-title">
+                  Linux
+                </h2>
+              </div>
               <p className="card-content">
                 Open Source Operating System
               </p>
             </Link>
 
             <Link href="/examples/email" className="card-interactive">
-              <h2 className="card-title">
-                Email
-              </h2>
+              <div className="flex items-center gap-4">
+                <Image src={email} alt="Email Icon" width={40} height={40} className="rounded-lg" />
+                <h2 className="card-title">
+                  Email
+                </h2>
+              </div>
               <p className="card-content">
                 Decentralized Communication Protocol 
               </p>
             </Link>
 
             <Link href="/examples/bitcoin" className="card-interactive">
-              <h2 className="card-title">
-                Bitcoin
-              </h2>
+              <div className="flex items-center gap-4">
+                <Image src={bitcoin} alt="Bitcoin Logo" width={40} height={40} className="rounded-lg" />
+                <h2 className="card-title">
+                  Bitcoin
+                </h2>
+              </div>
               <p className="card-content">
                 Decentralized Digital Currency
               </p>
             </Link>
 
             <Link href="/examples/bluesky" className="card-interactive">
-              <h2 className="card-title">
-                Bluesky
-              </h2>
+              <div className="flex items-center gap-4">
+                <Image src={bluesky} alt="Bluesky Logo" width={40} height={40} className="rounded-lg" />
+                <h2 className="card-title">
+                  Bluesky
+                </h2>
+              </div>
               <p className="card-content">
                 Decentralized Social Media Platform
               </p>
