@@ -17,8 +17,6 @@ export default function Examples() {
 
   return (
     <main className="min-h-screen pt-16 bg-white">
-      {/* Plain white background, no moving dots */}
-
       <section className="py-20 px-4">
         <div className="max-w-4xl mx-auto">
           <FadeInSection>
